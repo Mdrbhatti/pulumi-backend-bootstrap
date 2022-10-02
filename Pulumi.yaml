@@ -1,0 +1,6 @@
+name: pulumi-backend-bootstrap
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Create resources for setting up a self-managed pulumi backend
