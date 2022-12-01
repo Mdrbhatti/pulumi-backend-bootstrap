@@ -30,7 +30,8 @@ pulumi up
 
 ## Configure Pulumi to use self-managed backend
 
-Note: when using a self-managed backend with multiple Pulumi projects / stacks, it's a good practice to ensure that the stack names are unique and always namespaced with the project name: pulumi stack init <project-name>.<stack-name>. See this [issue](https://github.com/pulumi/pulumi/issues/2814) for more details.
+Note: when using a self-managed backend with multiple Pulumi projects / stacks, it's a good practice to ensure that the stack names are unique and **always** namespaced with the project name: `pulumi stack init <project-name>.<stack-name>`. See this [issue](https://github.com/pulumi/pulumi/issues/2814) for more details.
+
 
 ```bash
 # Specify the outputs from the bootstraped deployment
